@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web2.css">
+    <script src="https://kit.fontawesome.com/1687fb2fff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+        <h1 class="logo1">ADV</h1>
+        <h1 class="logo2">ENTURE</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#events">EVENTS</a></li>
+            <li><a href="#explore">EXPLORE</a></li>
+            <li><a href="#tours">TOURS</a></li>
+            <li><a href="#Contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" alt="" class="menu-btn">
+   <header id="Home">
+    <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+   </header>
+   <section id="events" class="Events">
+    <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+    </div>
+    <div class="row">
+    <div class="col">
+        <img src="images/timg1.jpg">
+        <h4>Everest Camp Trek</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, iure incidunt ex totam veniam.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+    <div class="col">
+        <img src="images/timg2.webp">
+        <h4>Walking Holidays</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, iure incidunt ex totam veniam.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+    </div>
+   </section>
+   <section id="explore" class="Explore">
+    <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit inventore vitae ut enim? Facilis illum quas, quam rem incidunt aliquid vel odit, adipisci necessitatibus neque culpa magnam dignissimos nam eos.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+   </section>
+   <section id="tours" class="Tours">
+    <div class="row">
+        <div class="col content-col">
+            <h1>UPCOMING TOURS & DESTINATION</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt fugiat voluptatem mollitia at deleniti ut, nisi ratione sunt, quis tenetur unde minima? Temporibus velit ex excepturi ratione mollitia quas natus.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="images/timg3.jpg">
+                <img src="images/timg4.jpg">
+                <img src="images/timg5.jpeg">
+                <img src="images/timg6.jpg">
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="Contact" class="footer">
+    <p>#30 abc Colony, xyz City IN | Phone: 9876543210 | Email: abc@example.com</p>
+    <p>Copyright<i class="fa-regular fa-copyright"></i>All rights reserved</p>
+   </section>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</body>
+</html>
